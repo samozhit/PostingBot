@@ -18,6 +18,7 @@ def post_on_tg( video=None,text=None ,audio=None, document=None, photo=None):
 
 
 admin_bot.send_message(462508160, 'updated successfully')
+admin_bot.send_message(462508160, 'second update')
 
 
 
