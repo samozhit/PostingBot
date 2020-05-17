@@ -12,8 +12,8 @@ def post_on_tg( video,text=None ,audio=None, document=None, photo=None):
 
 @admin_bot.message_handler(content_types=['text', 'audio', 'document', 'photo', 'video'])
 def send_video(message):
-    video=print(message)
 
-    post_on_tg(video=video)
+
+    post_on_tg(message.video,)
 
 admin_bot.polling()
