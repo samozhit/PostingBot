@@ -1,6 +1,7 @@
 import telebot
 from os import system
 
+print (123456)
 ADMIN_TOKEN ='838760869:AAF4GjkiYdwZxLmWFlzEeHk0MqDfyD5w0_k'
 admin_bot = telebot.TeleBot(ADMIN_TOKEN)
 TELEGRAM_CHANNEL_ID = '@channelForTestOne'
