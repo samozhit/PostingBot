@@ -1,3 +1,8 @@
-cd ~/Bot/PostingBot && git pull
-(cd ~/Bot/PostingBot/PostingBot && nohup python3 bot.py >/dev/null)&
-(cd ~/Updator && nohup python3 updator.py >/dev/null)&
+#!/bin/bash
+
+LOGIN="login"
+PASSWORD="password"
+
+cd ~/Bot && rm -rf *
+
+cd ~/Bot && git clone https://$LOGIN:$PASSWORD@github.com/DvlprNkt-s/PostingBot/
